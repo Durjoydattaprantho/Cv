@@ -1,0 +1,92 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+body {
+   display: grid;
+   grid-template-columns: 1fr 3fr;
+}
+/* first section */
+#id1{
+   background-color: rgb(136, 161, 235);
+   padding: 25px;
+   color: black;
+}
+.one{
+    text-align: center;
+}
+.one img {
+    width: 150px;
+    height: 150px;
+ }
+.one h1{
+    margin-bottom: 10px;
+}
+.ob{
+   margin: 10px;
+}
+.lan{
+   margin-top: 10px;
+}
+.lan-ul{
+   font-size: 17px;
+   margin-bottom: 10px;
+}
+.content p i{
+   padding: 10px;
+}
+.content p .fa-phone{
+   color: green;
+}
+.content p .fa-envelope{
+   color: red;
+}
+.content #res a{
+   font-size: 16px;
+   color: black;
+}
+.content p .fa-envelope{
+   color: red;
+}
+.content p .fa-location-dot{
+   color: yellow;
+}
+
+ /* second section */
+#id2 {
+   padding-left: 50px;
+   background-color: whitesmoke;
+   margin-bottom: 20px;
+}
+.edu {
+   padding: 7px;
+   background-color: rgb(241, 178, 125);
+   margin: 10px;
+   margin-left: 0;
+}
+.fa-solid {
+   padding-right: 10px;
+}
+table,th,td {
+   border: 2px solid rgb(22, 19, 217);
+   border-collapse: collapse;
+}
+
+th,td {
+   padding: 15px;
+   font-size: 15;
+}
+
+th {
+   background-color: yellow;
+}
+td {
+   text-align: center;
+}
