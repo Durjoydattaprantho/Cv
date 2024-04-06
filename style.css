@@ -184,8 +184,8 @@ td {
       width: 95%;
    }
    th,td {
-      padding: 10px;
-      font-size: 10;
+      padding: 8px;
+      font-size: 8;
    }
 }
 @media screen and (min-width:577px) and (max-width:970px){}
