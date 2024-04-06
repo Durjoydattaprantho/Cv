@@ -1,3 +1,4 @@
+/* Influencer-products start */
 * {
    margin: 0;
    padding: 0;
@@ -64,6 +65,7 @@ body {
    padding-left: 50px;
    background-color: whitesmoke;
    margin-bottom: 20px;
+
 }
 .edu {
    padding: 7px;
@@ -71,8 +73,21 @@ body {
    margin: 10px;
    margin-left: 0;
 }
+.information{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.information ul {
+   margin-right: 10px;
+}
+.information ul li{
+   margin-bottom: 10px;
+}
 .fa-solid {
    padding-right: 10px;
+}
+.table_info{
+   width: 98%;
 }
 table,th,td {
    border: 2px solid rgb(22, 19, 217);
@@ -90,3 +105,85 @@ th {
 td {
    text-align: center;
 }
+/* Influencer-products end */
+/* Responcive area */
+@media screen and (max-width:576px){
+   body{
+      grid-template-columns: repeat(1,1fr);
+   }
+   /* first section */
+   #id1{
+      padding-left: 10px;
+      width: 100px;
+      border: 2px solid black;
+      width: 100%;
+   }
+   .one img {
+       width: 150px;
+       height: 120px;
+    }
+   .one h1{
+       margin-bottom: 5px;
+       font-size: 20px;
+   }
+   .ob{
+      margin: 5px;
+      font-size: 15px;
+   }
+   .lan{
+      margin-top: 10px;
+   }
+   .lan-ul{
+      font-size: 17px;
+      margin-bottom: 10px;
+   }
+   .content p i{
+      padding: 10px;
+   }
+   .content p .fa-phone{
+      color: green;
+   }
+   .content p .fa-envelope{
+      color: red;
+   }
+   .content #res a{
+      font-size: 16px;
+      color: black;
+   }
+   .content p .fa-envelope{
+      color: red;
+   }
+   .content p .fa-location-dot{
+      color: yellow;
+   }
+   
+    /* second section */
+   #id2 {
+      padding-left: 10px;
+      background-color: whitesmoke;
+      margin-bottom: 20px;
+      border: 2px solid black;
+   }
+   .edu {
+      padding: 7px;
+      background-color: rgb(241, 178, 125);
+      margin: 10px;
+      margin-left: 0;
+   }
+   .information{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+   }
+   .information ul li{
+      margin-top: 10px;
+   }
+   .fa-solid {
+      padding-right: 10px;
+   }
+   th,td {
+      padding: 10px;
+      font-size: 10;
+   }
+}
+@media screen and (min-width:577px) and (max-width:970px){}
+    
