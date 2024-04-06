@@ -87,7 +87,7 @@ body {
    padding-right: 10px;
 }
 .table_info{
-   width: 96%;
+   width: 98%;
 }
 table,th,td {
    border: 2px solid rgb(22, 19, 217);
@@ -179,6 +179,9 @@ td {
    }
    .fa-solid {
       padding-right: 10px;
+   }
+   .table_info{
+      width: 95%;
    }
    th,td {
       padding: 10px;
