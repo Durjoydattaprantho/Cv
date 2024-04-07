@@ -115,7 +115,6 @@ td {
    #id1{
       padding-left: 10px;
       width: 100px;
-      border: 2px solid black;
       width: 100%;
    }
    .one img {
@@ -162,7 +161,6 @@ td {
       padding-left: 10px;
       background-color: whitesmoke;
       margin-bottom: 20px;
-      border: 2px solid black;
    }
    .edu {
       padding: 7px;
